@@ -1,0 +1,16 @@
+spec:
+  containers:
+    - name: jnlp
+      image: hcr.io/jenkins/jnlp-slave:alpine
+    - name: build
+      image: hcr.io/cloud-platform/build:dotnetcore3.1-1.1
+      command:
+        - cat
+      tty: true
+      env:
+        - name: DOCKER_HOST
+          value: tcp://localhost:2375
+    - name: trebuchet
+      image: hylandsoftware/trebuchet:1.1.4
+      securityContext:
+        privileged: true

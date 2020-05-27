@@ -1,0 +1,38 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildConfiguration", "BuildConfiguration", "{26AB7891-2456-40A2-A884-5DB5E782C961}"
+	ProjectSection(SolutionItems) = preProject
+		build\build-spec.yaml = build\build-spec.yaml
+		build\build.cake = build\build.cake
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Dockerfile = Dockerfile
+		GitVersion.yml = GitVersion.yml
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5701637-289B-46E8-8EE8-13ED75256248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5701637-289B-46E8-8EE8-13ED75256248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5701637-289B-46E8-8EE8-13ED75256248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5701637-289B-46E8-8EE8-13ED75256248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6CDA83-7A95-4958-8826-4AFEC9EB63C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6CDA83-7A95-4958-8826-4AFEC9EB63C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6CDA83-7A95-4958-8826-4AFEC9EB63C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6CDA83-7A95-4958-8826-4AFEC9EB63C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F39F8F0-F08C-48C9-9B70-685BACE8CC00}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+assembly-informational-format: '{Major}.{Minor}.{Patch}.{env:BUILD_NUMBER ?? 0}-{Sha}'
+mode: MainLine
+minor-version-bump-message: '\s?(feat|feature|minor)'
+patch-version-bump-message: '\s?(fix|patch)'
